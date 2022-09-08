@@ -1,0 +1,124 @@
+*{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/***************** squares **************************/
+.container .squares{
+    background-color: #370617;
+    height: 700px;
+    width: 1152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .squares .first-block, .second-block, .third-block, .fourth-block, .fifth-block, .sixth-block{
+    background-color: #F48C06;
+    height: 150px;
+    width: 450px;
+    border-radius: 5px;
+    display: flex;
+}
+.first-block{
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.second-block{
+    justify-content: center;
+}
+.third-block{
+    justify-content:flex-end;
+    align-items: center;
+}
+.fourth-block{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.fourth-block .sqr-3{
+    align-self: flex-end;
+}
+.fifth-block{
+    justify-content: space-around;
+
+}
+.fifth-block .sqr-2{
+    align-self: center;
+}
+.sixth-block{
+    justify-content: center;
+    align-items: center;
+}
+.sixth-block .sqr-2{
+    width: 80px;
+}
+.sqr-1, .sqr-2, .sqr-3{
+    background-color: #9D0208;
+    border-radius: 3px;
+}
+/************************* squares end **********************************/
+
+/********************* circles ********************/
+.circles{
+    margin: 20px;
+    padding: 20px;
+    width: 1152px;
+    height: 700px;
+    background: #FAA307;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5{
+    width: 300px;
+    height: 270px;
+}
+.box-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+}
+.box-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;   
+}
+.box-4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.box-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box-1, .box-3, .box-5{
+    background-color: #03071E;
+}
+.box-2, .box-4{
+    background-color: #6A040F;
+}
+.circle-1,.circle-2,.circle-3,.circle-4,.circle-5,.circle-6{
+    width: 1px;
+    height: 1px;
+    border-radius: 50px;
+    background-color: #748CAB;
+}
+/*********************** circles end ********************************/
